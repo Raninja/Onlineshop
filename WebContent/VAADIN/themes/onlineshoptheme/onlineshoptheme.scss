@@ -1,0 +1,196 @@
+/* Import the reindeer theme.*/
+/* This only allows us to use the mixins defined in it and does not add any styles by itself. */
+@import "../runo/runo.scss";
+
+/* This contains all of your theme.*/
+/* If somebody wants to extend the theme she will include this mixin. */
+@mixin onlineshoptheme {
+  /* Include all the styles from the reindeer theme */
+  @include runo;
+  $color:white;
+  $color1:red;
+ .v-verticallayout-root{
+ background-color:white;
+ }
+.v-gridlayout-gridl1{
+   margin-top:1pc;
+   margin-left:16pc;
+}
+.v-label-root{
+margin-left:12pc;
+width:30%;
+}
+.v-horizontallayout-hbutton{
+padding-left:12pc;
+padding-top:1pc;
+
+}
+.v-verticallayout-vbutton{
+padding-left:12pc;
+padding-top:3pc;
+
+}
+
+.v-label-me{
+margin-left:17pc;
+}
+.resource{
+    margin-left:29pc;
+}
+ .go .v-button-caption{
+    color:red;
+    font-weight:bold;
+    width:14em;
+    }
+   .gr .v-button-caption{
+    color:green;
+    font-weight:bold;
+    width:14em;
+    }
+   .v-horizontallayout-roothl{
+   padding-left:7pc;
+   }
+   
+   .v-horizontallayout-rootlink {
+   padding-top:3px;
+   padding-left:7pc;
+   padding-right:3pc;
+   }
+   .v-menubar-menustyle{
+   background-color:red;
+   color:$color;
+   font-weight:bold; 
+   border-radius:10px;
+  
+   }
+   .v-menubar-menuitem{
+   font-family:sans-serif;
+    
+   }
+   .v-horizontallayout-footer{
+    background-color:grey;
+    margin-left:16pc;
+    margin-top:2pc;
+    border-radius:10px;
+    width:59%;
+    color:$color;
+    margin-bottom:2pc;
+    }
+   .v-gridlayout-gd{
+      margin-top:1pc;
+      margin-left:18pc;
+      
+   }
+   .image{
+   border:0px solid grey;  
+   padding-right:2pc;
+   padding-left:2pc;
+   }
+   .price .v-gridlayout{
+   padding-left:1pc;
+   padding-top:1pc;
+   padding-bottom:0;
+   
+   }
+   .v-label-price1{
+
+   font-weight:bold;
+   padding:1pc;
+   }
+   .v-label-price2{
+   text-decoration:line-through;
+   padding-left:1pc;
+   }
+   .v-label-web{
+   padding-left:1pc;
+   }
+   .v-verticallayout-footalign{
+   padding:1pc;
+   color:$color;
+   }
+   .white .v-button-caption{
+   color:white;
+   style:none;
+   text-decoration:none;
+   }
+   .more .v-button-caption{
+   text-decoration:none;
+   color:grey;
+   padding-left:1pc;
+   }
+   .shop .v-label-caption{
+   color:white;
+   font-family:fantacy;
+   font-weight:bold;
+   padding-bottom:2pc;
+   }
+  
+  
+   
+  .v-label-welcomestyle{
+  margin-left:16pc;
+  }
+  .formstyle{
+   margin-left:25pc;
+   margin-top:1pc;
+   }
+  
+   .formstyle .v-textfield{
+   width:18em;
+   }
+   .formstyle .v-textarea{
+   width:18em;
+   height:8em;
+   }
+  .formstyle .v-label{
+   margin-left:1pc;
+   color:$color1;
+   }
+
+   .fo{
+   color:$color1;
+   }
+   .formstyle .v-textfield-caption{
+   color:black;
+   }
+   .formstyle .v-button{
+   width:8em;
+   
+   }
+   .dist{
+   padding-left:1pc;
+   }
+    .formstyle .v-button-caption{
+   font-family:sans-serif;
+   color:red;
+   font-weight:bold;
+   }
+   .texttrans{
+   text-transform:capitalize;
+   }
+  
+  .welcome .v-label{
+  margin-left:16pc;
+  }
+  .hl3.v-horizontallayout{
+   padding:6pc;
+   margin-left:12pc;
+   color:red;
+   text-size:15pt;
+   }
+   .v-label-price3{
+    font-weight:bold;
+   }
+   .vlstyle{
+   padding-left:12pc;
+   }
+   .vlstyle .v-label{
+    font-weight:bold;
+    padding-bottom:1pc;
+   }
+   .signup .v-button{
+   width:15em;
+   }
+ 
+  
+}
